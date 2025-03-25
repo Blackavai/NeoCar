@@ -1,0 +1,9 @@
+.block_head{
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid white;
+    transition: .3s;
+    &:hover{
+      background-color: rgb(34, 34, 34);
+
+    }
+}

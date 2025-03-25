@@ -1,0 +1,81 @@
+.main_picture{
+    width: 100wh;
+    height: 100vh;
+    margin-bottom: 20px;
+    & img{
+        margin-top: -100px;
+    }
+}
+
+.haracteristics{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inf_har {
+    flex: 0 0 33.33%; /* Задает ширину элемента в 33.33% (одна треть от ширины родительского контейнера) */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}
+
+.inf_har img {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.btn_konfig{
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    /* padding-bottom: 5px; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 80px;
+    margin-left: 30px;
+    &:hover {
+        background-size: 100% 2px;
+    }
+}
+
+.inf_pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-top: -100px;
+    color: white;
+    & p{
+        font-size: 26px;
+        font-weight: bold;
+    }
+}
+
+.picture_car1{
+    width: 80%;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.picture_car2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: -200px;
+}
